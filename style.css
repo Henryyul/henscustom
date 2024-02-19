@@ -3,17 +3,6 @@
     margin: 0;
 }
 
-
-body {
-    font:verdana;
-    }
-
-    header {
-        text-align:center;
-        padding-top: 100px;
-        margin-bottom: 190px;
-    }
-
 footer {
     position:relative;
     bottom: 0;
@@ -36,7 +25,7 @@ footer {
     vertical-align: top;
 }
 
-@media (max-height:800px) {
+@media (max-height:620px) {
     footer {
         position: static;
     }
@@ -54,51 +43,26 @@ footer {
     }
 
     .footer .footer-left img {
-        width:25%;
+        width:20%;
         vertical-align: middle;
     }
 
-    .footer .footer-link1 {
+    .footer .footer-link1,
+    .footer .footer-link2,
+    .footer .footer-link3,
+    .footer .footer-link4,
+    .footer .footer-link5,
+    .footer .footer-link6 {
         color:#d8dfe9;
         font-size:14px;
         font-weight:normal;
         margin:0;
         line-height: 20px;
+        text-align: left;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    .footer .footer-link2 {
-        color:#d8dfe9;
-        font-size:14px;
-        font-weight:normal;
-        margin:0;
-        line-height: 20px;
-    }
-
-    .footer .footer-link3 {
-        color:#d8dfe9;
-        font-size:14px;
-        font-weight:normal;
-        margin:0;
-        line-height: 20px;
-    }
-
-    .footer .footer-link4 {
-        color:#d8dfe9;
-        font-size:14px;
-        font-weight:normal;
-        margin:0;
-        line-height: 20px;
-    }
-
-    .footer .footer-link5 {
-        color:#d8dfe9;
-        font-size:14px;
-        font-weight:normal;
-        margin:0;
-        line-height: 20px;
-    }
-
-    .footer .footer-copyright {
+     .footer .footer-copyright {
         color:#d8dfe9;
         font-size: 14px;
         font-weight: normal;
@@ -149,7 +113,7 @@ footer {
     .footer .footer-about {
         line-height: 20px;
         color:#cddae6;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: normal;
         margin:0px;     
     }
@@ -164,7 +128,7 @@ footer {
 
     @media (max-width) 880px {
 
-        .footer .footer-left,
+.footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
     display: block;
