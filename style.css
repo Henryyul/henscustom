@@ -43,7 +43,7 @@ footer {
     }
 
     .footer .footer-left img {
-        width:10%;
+        width:30px;
         vertical-align: middle;
     }
 
@@ -63,20 +63,13 @@ footer {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
-     .footer .footer-copyright {
-        color:#d8dfe9;
-        font-size: 14px;
-        font-weight: normal;
-        margin:0;
-        padding-top: 10%;
-    }
 
     .footer .footer-center {
         width:35%;        
     }
 
        .footer .footer-center img {
-        width:10%;
+        width:30px;
         vertical-align: middle;
     }
 
@@ -101,6 +94,7 @@ footer {
         margin:10px 15px;
         vertical-align: middle;  
     }
+
 
     .footer .footer-center p {
         display: inline-block;
@@ -136,7 +130,7 @@ footer {
     }
 
     .footer .footer-right img {
-        width:10%;
+        width:30px;
         vertical-align: middle;
     }
 
