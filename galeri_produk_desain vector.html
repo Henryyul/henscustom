@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <link rel="icon" type="image/x-icon" href="H_C.png">
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+        <style>
+            body {
+              font-family: verdana;
+              font-size: 14px;
+              background-color: #E1FFC2;
+              width: 70%;      
+              margin-left: 15%;    
+              margin-right: auto;    
+              position:relative;
+            }
+
+            
+            #myBtn {
+              display: none;
+              position: fixed;
+              bottom: 20px;
+              right: 30px;
+              z-index: 99;
+              font-size: 18px;
+              border: none;
+              outline: none;
+              background-color: red;
+              color: white;
+              cursor: pointer;
+              padding: 15px;
+              border-radius: 4px;
+            }
+            
+            #myBtn:hover {
+              background-color: #555;
+            }
+            </style>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i>Menuju Atas</i></button>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>                
+
+         <style>
+
+            ul {
+                list-style-type: none;
+                margin:0;
+                padding:0;
+                overflow: hidden;
+                background-color:#56801B;
+            }
+
+            li {
+                float:left;
+            }
+
+            li a {
+                display:block;
+                color:rgb(255, 255, 255);
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color:#375E01;
+            }     
+          
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .menu {
+                float: left;
+                width: 20%;
+                text-align:center;
+            }
+
+            .menu a {
+                background-color: #B4F476;
+                padding: 10px;
+                margin-top: 7px;
+                display: block;
+                width: 100%;
+                color:black;
+            }
+               
+            .main {
+                float: left;
+                width:60%;
+                padding:0 20px;
+                background-color:#E1FFC2;
+                color:#6e060f;
+                margin-top: 7px;
+            }
+
+            .left {
+                background-color: #B4F476;
+                float: left;
+                width: 20%;
+                padding: 10px;
+                margin-top: 7px;
+                text-align:left;
+                color:black;
+            }
+
+            
+
+            @media only screen and (max-width:100%) {
+                /* For mobile phone :*/
+                .menu .main .right .footer {
+                    width:100%;
+                }
+            }
+        </style>
+    </head>
+
+    
+<style>
+
+    </style>
+
+    <body style="font-family:Verdana; color:#6d1e05;">
+
+     <img src="banner_1.jpg" width="100%";>
+
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="cara_pesan.html">Cara Pesan</a></li>
+            <li><a href="tentang_kami.html">Tentang Kami</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="jadwal_toko.html">Jadwal Toko</a></li>
+
+        </ul>
+        <div style="overflow: auto;">
+            <div class="menu">
+            <a href="index.html"><b>Beranda</b></a>
+            <a href="produk.html"><b>Produk &#9660;</b></a>
+            <a href="cara_pesan.html"><b>Cara Pesan</b></a>
+            <a href="tentang_kami.html"><b>Tentang Kami</b></a>
+            <a href="galeri.html"><b>Galeri &#9660;</b></a>
+            <a href="galeri_produk_logam.html"><i>Galeri Produk Logam</i></a>
+            <a href="galeri_produk_kertas.html"><i>Galeri Produk Kertas</i></a>
+            <a href="galeri_produk_akrilik.html"><i>Galeri Produk Akrilik</i></a>
+            <a href="galeri_produk_stiker.html"><i>Galeri Produk Stiker</i></a>
+            <a href="galeri_produk_desain vector.html"><i>Galeri Desain Vector &#9658;</i></a>
+            <a href="jadwal_toko.html"><b>Jadwal Toko</b></a>
+    
+
+    </div>
+    
+    <div class="main">
+        <h4><b><u>Galeri Desain Vector</u></b></h4><br>
+        <p><b>Ini adalaha halaman Galeri desain vector. Halaman dimana Anda bisa melihat photo desain-desain vector kami.</b></p><br>
+
+        <p>Galeri desain vector.</p>
+
+    <img src="img desain vector/desain vector 1.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 2.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 3.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 4.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 5.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 6.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 7.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 8.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 9.jpg" alt="desain vector corel draw" width="160" height="auto">
+    <img src="img desain vector/desain vector 10.jpg" alt="desain vector corel draw" width="160" height="auto">
+
+    <p>Kami adalah penyedia jasa desain vector yang handal dan berkualitas tinggi, menggunakan perangkat lunak terkemuka seperti CorelDRAW untuk 
+        menciptakan desain-desain yang menarik dan profesional. Dengan pengalaman kami dalam mengoperasikan CorelDRAW, kami mampu menghasilkan 
+        desain-desain yang sesuai dengan permintaan Anda dengan presisi dan keahlian yang tinggi.</p><br>
+
+    <p>Tim desain kami terampil dalam mengelola berbagai jenis proyek, dari desain logo hingga ilustrasi dan banyak lagi. Kami memahami bahwa setiap 
+        proyek memiliki kebutuhan uniknya sendiri, dan itulah sebabnya kami selalu siap mendengarkan keinginan dan visi Anda dengan teliti.</p><br>
+        
+    <p>Komitmen kami adalah untuk memberikan hasil yang memenuhi atau bahkan melebihi harapan Anda. Kami percaya bahwa desain yang kuat dan efektif 
+        adalah kunci keberhasilan, dan kami berusaha untuk menciptakan desain-desain yang tidak hanya menarik secara visual tetapi juga efektif dalam 
+        menyampaikan pesan yang diinginkan.</p><br>
+        
+    <p>Dengan menggunakan CorelDRAW, kami dapat menghasilkan desain-desain yang berkualitas tinggi dengan efisiensi dan konsistensi yang tinggi. 
+        Kemampuan perangkat lunak ini untuk menghasilkan vector dengan presisi tinggi memastikan bahwa desain-desain kami dapat diterapkan pada berbagai 
+        media dan skala tanpa kehilangan kualitas.<p><br>
+        
+    <p>Jadi, jika Anda membutuhkan desain vector yang sesuai dengan permintaan Anda, percayakan kepada kami untuk memberikan solusi yang tepat dan memuaskan. 
+        Kami siap membantu mewujudkan visi Anda menjadi kenyataan dengan desain-desain yang menarik dan profesional.</p>
+
+    </div>
+
+    <div class="left">
+        <h4>Random Quote:</h4><br>
+        <p>- "Orang yang sekarang berhasil adalah orang yang lebih banyak mengalami kegagalan daripada 
+            orang yang gagal". </p><br>
+        <p>- "Segeralah bangkit saat kau jatuh".</p><br>
+        <p>- "Tidak ada yang benar-benar peduli denganmu saat kau berada dibawah. Tapi semua orang akan 
+            merasa menjadi keluargamu saat kau diatas".</p>
+    </div>
+
+    <div class="left">
+        <h4>Berita Umum Terbaru :</h4><br>
+        <p><i>1. Sumber : Okezone (22/02/2024). </i></p>
+        <p><b>29 Orang Luka-Luka Akibat Puting Beliung Menerjang Bandung-Sumedang</b></p>
+           <p>BANDUNG - Penjabat (PJ) Gubernur Jawa Barat, Bey Machmudin meninjau beberapa lokasi yang 
+            terdampak angin puting beliung di Wilayah Sumedang dan Kabupaten Bandung pada...<br>
+            Link : <a href="https://news.okezone.com/read/2024/02/21/525/2973618/29-orang-luka-luka-akibat-
+            puting-beliung-menerjang-bandung-sumedang"; target="_blank">Disini</a>
+        </p> <br>
+        
+        </p><i>2. Sumber : Okezone (22/02/2024).</i></p>
+        <p><b>Begini Strategi Komeng Pikat Warga hingga Suaranya...</b></p>
+        <p>JAKARTA - Alfiansyah Komeng hampir dipastikan terpilih sebagai anggota Dewan Perwakilan Daerah 
+            (DPD) dari Jawa Barat periode 2024-2029. Pelawak senior berdarah Betawi-Sunda ini masih 
+            memimpin perolehan suara sementara. Komeng sudah...<br>
+            Link : <a href="https://nasional.okezone.com/read/2024/02/21/337/2973596/begini-strategi-
+            komeng-pikat-warga-hingga-suaranya-tak-terbendung-di-pemilu-2024"; target="_blank">Disini</a>
+        </p>
+       
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-left">
+       <div class="social-media">
+        <img src="H_C.png">   <br><br>        
+        </div> 
+
+        <p class="footer-link1"><a href="index.html"><img src="ikon_beranda.png"></a> Beranda</p>
+        <p class="footer-link2"><a href="produk.html"><img src="ikon_produk.png"></a> Produk</p>
+        <p class="footer-link3"><a href="cara_pesan.html"><img src="ikon_cara_pesan.png"></a> Cara Pesan</p>
+        <p class="footer-link4"><a href="tentang_kami.html"><img src="ikon_tentang_kami.png"></a> Tentang Kami</p>
+        <p class="footer-link5"><a href="galeri.html"><img src="ikon_galeri.png"></a> Galeri</p>
+        <p class="footer-link6"><a href="jadwal_toko.html"><img src="ikon_jadwal toko.png"></a> Jadwal Toko</p>
+        <p class="footer-link7"><a href="mailto:henscustom@gmail.com"><img src="ikon_email.png"></a> henscustom@gmail.com</p>
+
+
+    </div>
+
+    <div class="footer-center">
+       
+        <p class="ikon-wa"><a href="https://wa.me/+6287821875163?text=Hallo,%20Saya%20melihat%20webnya.
+            %20Mohon%20info%20lebih%20lanjut.%20Terima%20kasih." target="_blank"><img src="ikon_hubungi_kami (2).png"></a> WhatsApps</p><br>
+            
+        <div>
+            <p><span>(+62)878-2187-5163</span></p>
+        </div>
+
+        <p class="ikon-wa"><a href="https://maps.app.goo.gl/UDT5x9rJTHcvw8Kw7" target="_blank"> 
+            <img src="ikon_titik_lokasi.png" ></a> Maps</p><br>
+        <p>Hens Custom. <br>
+        Perum. Paledang Indah Blok Q-13, <br>
+        Desa Bojongkunci, Kec. Pameungpeuk,<br>
+        Kab. Bandung, Jawa Barat, <br>
+        Indonesia - 40376.</p><br><br></p>
+
+        <p class="ikon-wa"><img src="ikon_bca.png"> Rekening Bank</p><br>
+        <p>BCA a/n Henry Yulianto.<br>
+        Rekening : 5140-255-655.</p><br><br>
+        <p>© 2024 Hens Custom</p>
+        </p>
+
+    </div>
+
+    <div class="footer-right">
+        <p class="footer-about">
+            <span><i>Catatan :</i><br></span>
+            Terima kasih atas kunjungan Anda.<br>
+            Bilamana ada pertanyaan, silakan hubungi WhatsApps kami.
+            Kami akan sesegera mungkin membantu.<br><br>
+            <i>Ikuti kami : </i><br>
+        </p>
+        
+
+        <p class="ikon-sosmed"><a href="https://www.facebook.com/search/top?q=hen%27s%20custom%20aksesoris" 
+            target="_blank"><img src="ikon_facebook.png"></a> Facebook</p>
+        <p class="ikon-sosmed"><a href="https://www.instagram.com/hens.custom" 
+            target="_blank"><img src="ikon_instagram.png"></a> Instagram</p>
+        <p class="ikon-sosmed"><a href="https://twitter.com/hens_custom" 
+            target="_blank"><img src="ikon_twitter.png"></a> Twitter</p>
+        <p class="ikon-sosmed"><a href="https://www.tiktok.com/@henryyulianto1" 
+            target="_blank"><img src="ikon_tik_tok.png"></a> Tik Tok</p>
+        <p class="ikon-sosmed"><a href="https://www.youtube.com/@henry079x" 
+            target="_blank"><img src="ikon_youtube.png"></a> Youtube</p>
+        
+    </div>
+
+</footer>
+    </body>
+</html>
